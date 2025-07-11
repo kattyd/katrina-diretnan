@@ -1,12 +1,64 @@
-# React + Vite
+# katrina.d — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A seamless split-view portfolio built with Vite, React, and handwritten CSS. This site highlights both the **tech** and **media** sides of Katrina Diretnan’s work — including writing, web development, podcasting, and video content.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔁 Dual-mode: **Tech** and **Media** sections
+- 🎨 Handwritten CSS with glassmorphism and gradients
+- 📺 Embedded YouTube gallery and podcast links
+- ⚙️ Smooth on-scroll animations using AOS
+- 🌐 Responsive, fast-loading, and mobile-friendly
+- 💡 Minimalist, Apple-inspired design language
 
-## Expanding the ESLint configuration
+## 🔧 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- [React Router DOM](https://reactrouter.com/)
+- Handwritten CSS
+
+## 📁 Project Structure
+
+src/
+├── assets/ # Images and logos
+├── components/ # Reusable components like Navbar, Hero
+├── pages/ # MediaView.jsx, TechView.jsx, etc.
+├── styles/ # CSS files
+└── App.jsx # Main app entry
+
+bash
+Copy
+Edit
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
+🧠 Customize
+To change the links or content in each view, edit:
+
+MediaView.jsx for media sections
+
+TechView.jsx for tech content
+
+Navbar.jsx for dynamic link rendering
+
+To adjust animations or styles, look into:
+
+styles/*.css
+
+AOS classes in HTML
+
+📸 Screenshots
+Coming soon — feel free to add screenshots or a short demo!
+
+🖤 Credits
+Built by Katrina Diretnan
+Design inspired by Apple's product pages
