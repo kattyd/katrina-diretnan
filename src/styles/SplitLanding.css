@@ -27,6 +27,10 @@
     text-align: center;
     color: #fff;
 }
+.glass-card:hover {
+    box-shadow: 0 0 60px rgba(199, 76, 191, 0.6), 0 0 120px rgba(45, 45, 179, 0.4);
+    transform: scale(1.02);
+}
 .glass-card h1 {
     font-size: 2rem;
     font-weight: 600;

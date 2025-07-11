@@ -7,21 +7,21 @@ import mediaImg from "../assets/media-face.png";
 const SplitLanding = () => {
     return (
         <section className="split-landing">
-            <Link to="/tech" className="split left">
-                <div className="glass-card">
+            <div className="split left">
+                <Link to="/tech" className="glass-card">
                     <img src={techImg} className="tech-img"/>
                     <h1>tech</h1>
                     <p>web, dev tools</p>
-                </div>
-            </Link>
+                </Link>
+            </div>
 
-            <Link to="/media" className="split right">
-                <div className="glass-card">
+            <div className="split right">
+                <Link to="/media" className="glass-card">
                     <img src={mediaImg} className="media-img"/>
                     <h1>media</h1>
                     <p>stories, visuals</p>
-                </div>
-            </Link>
+                </Link>
+            </div>
         </section>
     );
 };
