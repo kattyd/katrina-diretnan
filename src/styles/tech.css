@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #121212, #202030, #301a40);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.t-about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 15rem;
+    padding-right: 4rem;
+}
+.t-about-text h1{
+    font-size: 8rem;
+    margin-top: 8rem;
+}
+.tech-image img {
+    width: 320px;
+    max-width: 100%;
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
+}

@@ -1,0 +1,94 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #121212, #202030, #301a40);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.m-about {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 15rem;
+}
+.m-about-text {
+    margin-top: 10rem;
+}
+.m-about-text h1{
+    font-size: 8rem;
+}
+.media-image img {
+    width: 320px;
+    max-width: 100%;
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
+}
+.radio {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+}
+.radio-card {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 2rem 3rem;
+    width: 400px;
+    max-width: 80%;
+    text-align: center;
+    color: #fff;
+}
+.youtube {
+    margin-top: 10rem;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 2rem 3rem;
+    color: #fff;
+    text-align: right;
+}
+.katz-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 2rem 3rem;
+    color: #fff;
+}
+.katz-content .text {
+    width: 50%;
+}
+.katz-content img {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 12px;
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
+}
+.katz-button {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.katz-button:hover {
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+}
