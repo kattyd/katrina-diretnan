@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { href, Link, useLocation } from "react-router-dom";
 import "../styles/navbar.css";
 import logo from "../assets/logo.png";
@@ -20,6 +21,30 @@ function Navbar({ mode }) {
 
     const navLinks = mode === "media" ? mediaLinks : techLinks;
 
+    const [isOpen, setIsOpen] = useState(false);
+    const menuRef = useRef(null);
+    const hamburgerRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (menuRef.current && !menuRef.current.contains(event.target) &&
+                hamburgerRef.current &&
+                !hamburgerRef.current.contains(event.target)  
+            ) {
+                setIsOpen(false);
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
+
+    useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
+    return () => {
+      document.body.style.overflow = "auto"; // fallback in case of component unmount
+    };
+  }, [isOpen]);
+
     return (
         <nav className="navbar">
             <div className="logo">
@@ -27,13 +52,22 @@ function Navbar({ mode }) {
                     <img src={logo} alt="logo"/>
                 </Link>
             </div>
-            <ul className="nav-links">
-                {navLinks.map((link, idx) => (
-                    <li key={idx}>
-                        <a href={link.href}>{link.label}</a>
-                    </li>
-                ))}
-            </ul>
+            <div className={`nav-links ${isOpen ? "open" : ""}`} ref={menuRef}>
+                <ul>
+                    {navLinks.map((link, idx) => (
+                        <li key={idx}>
+                            <a href={link.href} onClick={() => setIsOpen(false)}>{link.label}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+             <div className={`hamburger-icon ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)} ref={hamburgerRef}>
+                <div className="icon-wrapper">
+                    <FaBars className="bar-icon" />
+                    <FaTimes className="close-icon" />
+                </div>
+            </div>
+
         </nav>
     );
 };

@@ -7,15 +7,19 @@
     justify-content: space-between;
     width: 100%;
     color: #fff;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     padding-right: 4rem;
+    text-align: right;
 }
 .t-about-text h1{
     font-size: 8rem;
     margin-top: 8rem;
 }
+.t-about-text p {
+    font-size: 1.5rem;
+}
 .tech-image img {
-    width: 320px;
+    width: 820px;
     max-width: 100%;
     filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
 }
@@ -142,11 +146,14 @@
     .tech-image img {
         width: 280px;
     }
+    .p-card {
+        height: auto;
+    }
     .p-card h2 {
         font-size: 1.5rem;
     }
     .p-card img {
-    width: 480px;
+    width: 320px;
     max-width: 100%;
     }
 }

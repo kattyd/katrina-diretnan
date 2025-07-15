@@ -6,19 +6,19 @@ const Footer = () => {
     return (
         <section className="footer">
            <div className="footer-links">
-                <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                <a href="https://www.youtube.com/@kaaahtea" target="_blank" rel="noreferrer">
                     <FaYoutube />
                 </a>
-                <a href="https://github.com" target="_blank" rel="noreferrer">
+                <a href="https://github.com/kattyd" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/katrina-dawap-485535200/" target="_blank" rel="noreferrer">
                     <FaLinkedin />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/diretnan" target="_blank" rel="noreferrer">
                     <FaTwitter />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                <a href="https://instagram.com/kaaahtea" target="_blank" rel="noreferrer">
                     <FaInstagram />
                 </a>
                 <a href="mailto:kattydee3@gmail.com" target="_blank" rel="noreferrer">
