@@ -19,7 +19,7 @@
     font-size: 1.5rem;
 }
 .media-image img {
-    width: 1320px;
+    width: 820px;
     max-width: 100%;
     filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.5));
 }
@@ -106,11 +106,14 @@
         align-items: center;
         padding-left: 15px;
     }
+    .m-about-text {
+        margin-top: 10px;
+    }
     .m-about-text h1 {
         font-size: 5rem;
     }
     .m-about-text p {
-    font-size: 1.5rem;
+        font-size: 1.5rem;
     }
     .media-image img {
         width: 280px;
@@ -122,8 +125,8 @@
         margin-left: 25px;
     }
     .radio img {
-    width: 100%;
-    margin-bottom: 0px;
+        width: 100%;
+        margin-bottom: 0px;
     }
     .radio-card, .youtube, .katz-content {
         margin-bottom: 2rem;

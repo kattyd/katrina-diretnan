@@ -63,9 +63,7 @@
         align-items: center;
         z-index: 1001;
         border-radius: 0px;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.06);
+        background: #000;
     }
     .nav-links.open ul {
         flex-direction: column;
@@ -82,48 +80,48 @@
     }
     .hamburger-icon {
         display: block;
-    cursor: pointer;
-    z-index: 1100;
-    width: 30px;
-    height: 30px;
-    position: relative;
+        cursor: pointer;
+        z-index: 1100;
+        width: 30px;
+        height: 30px;
+        position: relative;
     }
 
     .icon-wrapper {
-    pointer-events: none;
-    position: relative;
-    width: 100%;
-    height: 100%;
+        pointer-events: none;
+        position: relative;
+        width: 100%;
+        height: 100%;
     }
 
     .bar-icon,
     .close-icon {
-    pointer-events: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 1.8rem;
-    color: #fcfaab;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+        pointer-events: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 1.8rem;
+        color: #fcfaab;
+        transition: opacity 0.3s ease, transform 0.3s ease;
     }
 
     .bar-icon {
-    opacity: 1;
-    transform: rotate(0deg) scale(1);
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
     }
 
     .close-icon {
-    opacity: 0;
-    transform: rotate(-90deg) scale(0.8);
+        opacity: 0;
+        transform: rotate(-90deg) scale(0.8);
     }
 
     .hamburger-icon.open .bar-icon {
-    opacity: 0;
-    transform: rotate(90deg) scale(0.8);
+        opacity: 0;
+        transform: rotate(90deg) scale(0.8);
     }
 
     .hamburger-icon.open .close-icon {
-    opacity: 1;
-    transform: rotate(0deg) scale(1);
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
     }
 }

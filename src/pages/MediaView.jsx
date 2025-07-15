@@ -12,21 +12,18 @@ const MediaView = () => {
             <Navbar mode="media" />
             <div className="media">
                 <section id="m-about" className="m-about">
-                    <div className="m-about-text">
-                        <h1>kaaahtea</h1>
-                        <p>I’m Katrina Dawap — a writer and media creative drawn to storytelling 
-                            in all its forms.
-                            Whether through essays, podcasts, or visual work, 
-                            I care about capturing human moments and shaping them into 
-                            something that resonates. I like work that’s thoughtful, 
-                            slightly offbeat, and emotionally honest — 
-                            and that’s what I try to make here.</p>
-                    </div>
                     <div className="media-image">
                         <img src={mediaImg}  alt="media-img" loading="lazy"/>
                     </div>
+                    <div className="m-about-text">
+                        <h1>kaaahtea</h1>
+                        <p>a writer and media creative drawn to storytelling 
+                            in all its forms.
+                            Whether through essays, podcasts, or visual work.
+                            </p>
+                    </div>
                 </section>
-                <section id="radio" className="radio" data-aos="fade-up">
+                <section id="radio" className="radio">
                     <div className="radio-text">
                         <h1>SearchFM OAP</h1>
                     </div>

@@ -21,8 +21,7 @@ const TechView = () => {
                         <h1>katrina</h1>
                         <p>a self-taught full-stack developer 
                             who enjoys building clean, thoughtful websites.
-                            I like learning by doing, and I’m still figuring things out as I grow. 
-                            What matters to me is creating things that are clear, useful, and made with care.</p>
+                            </p>
                     </div>
                 </section>
                 <section id="projects" className="projects">

@@ -4,16 +4,17 @@
 }
 .t-about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     color: #fff;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     padding-right: 4rem;
-    text-align: right;
+}
+.t-about-text {
+    margin-top: 10rem;
 }
 .t-about-text h1{
     font-size: 8rem;
-    margin-top: 8rem;
 }
 .t-about-text p {
     font-size: 1.5rem;
@@ -137,6 +138,9 @@
         flex-direction: column;
         align-items: center;
         padding: 0 2rem;
+    }
+    .t-about-text {
+        margin-top: 10px;
     }
     .t-about-text h1 {
         font-size: 6rem;
