@@ -5,3 +5,6 @@
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
 }
+body {
+  background: radial-gradient(circle, #121212, #202030, #301a40);
+}

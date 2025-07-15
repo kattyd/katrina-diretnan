@@ -1,10 +1,6 @@
-body {
+.media {
     min-height: 100vh;
-    margin: 0;
-    background: radial-gradient(circle, #121212, #202030, #301a40);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    margin: 10px;
 }
 .m-about {
     display: flex;
@@ -32,9 +28,8 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     padding: 2rem 3rem;
-    text-align: center;
     color: #fff;
-    align-items: center;
+    height: 60vh;
 }
 .radio-card {
     background: rgba(255, 255, 255, 0.06);
@@ -55,7 +50,6 @@ body {
     border-radius: 16px;
     padding: 2rem 3rem;
     color: #fff;
-    text-align: right;
 }
 .katz-content {
     display: flex;
@@ -91,4 +85,35 @@ body {
 }
 .katz-button:hover {
   background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+}
+
+@media (max-width: 768px) {
+    .m-about {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 45px;
+    }
+    .m-about-text h1 {
+        font-size: 5rem;
+    }
+    .radio, .radio-card, .youtube, .katz-content {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-left: 25px;
+    }
+    .radio-card, .youtube, .katz-content {
+        margin-bottom: 2rem;
+    }
+    .katz-content .text {
+        width: 100%;
+        text-align: center;
+    }
+    .katz-content .text a {
+        margin-bottom: 15px;
+    }
+    .katz-content img {
+        width: 80%;
+        margin-left: 28px;
+    }
 }

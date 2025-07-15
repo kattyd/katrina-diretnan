@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/SplitLanding.css";
+import Footer from "./Footer";
 import techImg from "../assets/tech-face.png";
 import mediaImg from "../assets/media-face.png";
 
 const SplitLanding = () => {
     return (
+    <>
         <section className="split-landing">
             <div className="split left">
                 <Link to="/tech" className="glass-card">
@@ -23,6 +25,8 @@ const SplitLanding = () => {
                 </Link>
             </div>
         </section>
+        <Footer />
+    </>    
     );
 };
 
