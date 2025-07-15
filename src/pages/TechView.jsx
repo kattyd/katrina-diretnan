@@ -71,7 +71,12 @@ const TechView = () => {
                             ))}
                         </div>
                 </section>
-                <section id="cta" className="cta"></section>
+                <section id="cta" className="cta-section">
+                    <div className="cta-card">
+                        <h2>I will help you build cool things.</h2>
+                        <a href="mailto:kattydee3@gmail.com" className="cta-btn">Say hello</a>
+                    </div>
+                </section>
             </div>
         </>
     );
