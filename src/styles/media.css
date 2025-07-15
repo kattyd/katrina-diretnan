@@ -123,10 +123,14 @@
     }
     .radio img {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     }
     .radio-card, .youtube, .katz-content {
         margin-bottom: 2rem;
+    }
+    .radio-card {
+        width: 100%;
+        max-width: 150%;
     }
     .katz-content .text {
         width: 100%;
