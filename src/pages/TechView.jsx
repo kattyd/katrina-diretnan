@@ -28,30 +28,38 @@ const TechView = () => {
                     <h1>projects</h1>
                     <div className="project-cards">
                         <div className="p-card" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="https://guldspy.vercel.app/" target="blank">
                             <h2>Guldspy</h2>
                             <p>mint your very own gulspy tokens on the solana blockchain. <br /> Note: Guldspy tokens are worth nothing.</p>
                             <img src={guldspy}  alt="guldspy" loading="lazy" />
-
+                        </a>
                         </div>
                         <div className="p-card" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="https://budgettoire.vercel.app/" target="blank">
                             <h2>Budgettoire</h2>
                             <p> A simple and stylish budgeting web app that helps users track their income, expenses, and overall financial habits. Built with React and Firebase, it allows users to log transactions, and view summaries</p>
                             <img src={budgettoire}  alt="budgettoire" loading="lazy" />
-
+                        </a>
                         </div>
                         <div className="p-card" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="https://lit-dao.vercel.app/" target="blank">
                             <h2>LitDAO</h2>
                             <img src={litdao}  alt="litdao" loading="lazy" />
+                        </a>
                         </div>
                         <div className="p-card" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="https://library-tracker-zeta.vercel.app/">
                             <h2>Library Tracker</h2>
                             <p>Keep track of all the books you read as well as progress on your current reads. Add books you want to read.</p>
                             <img src={libtracker}  alt="libtracker" loading="lazy" />
+                        </a>
                         </div>
                         <div className="p-card" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="https://brainwave-io-one.vercel.app/" target="blank">
                             <h2>Brainwave Landing Page </h2>
                             <p>a landing page for a furniture store.</p>
                             <img src={brainwave}  alt="brainwave" loading="lazy" />
+                        </a>
                         </div>
                     </div>
                 </section>

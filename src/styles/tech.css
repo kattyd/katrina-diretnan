@@ -51,6 +51,10 @@
     flex-direction: column;
     align-items: center;
 }
+.p-card a {
+    text-decoration: none;
+    color: inherit;
+}
 .p-card h2 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
