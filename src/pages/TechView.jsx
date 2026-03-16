@@ -37,7 +37,7 @@ const TechView = () => {
                         <div className="p-card" data-aos="fade-up" data-aos-duration="3000">
                         <a href="https://budgettoire.vercel.app/" target="blank">
                             <h2>Budgettoire</h2>
-                            <p> A simple and stylish budgeting web app that helps users track their income, expenses, and overall financial habits. Built with React and Firebase, it allows users to log transactions, and view summaries</p>
+                            <p> A simple and stylish budgeting web app that helps users track  <br />their income, expenses, and overall financial habits. Built with React and Firebase, it allows users to log transactions, and view summaries</p>
                             <img src={budgettoire}  alt="budgettoire" loading="lazy" />
                         </a>
                         </div>
